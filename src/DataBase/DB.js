@@ -5,7 +5,7 @@ export const sequelize = new Sequelize(
     'postgres',
     '101287',
     {
-     host:"localhost",
+     host:"host.docker.internal",
      dialect:"postgres"
     }
 );
